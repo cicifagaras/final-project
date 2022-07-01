@@ -2,7 +2,7 @@
     "name": "final-project",
     "version": "0.1.0",
     "main": "index.js",
-    "homepage": "https://cicifagaras.github.io/online-store",
+    "homepage": "https://cicifagaras.github.io/online-store/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.9.0",
