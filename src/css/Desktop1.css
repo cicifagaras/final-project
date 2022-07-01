@@ -1,0 +1,75 @@
+.desktop-1 {
+  background-image: url("../components/images/snowboarder.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 50px;
+}
+.corner-pic{
+  max-height: 500px;
+  object-fit: cover;
+}
+.snowboard-span {
+  color: #c57840;
+}
+.blackSpan {
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  h1.titleContainer {
+    font-size: 20px;
+    top: 20%;
+    left: 10%;
+  }
+}
+.titleContainer{
+  font-weight:bold;
+  position: absolute;
+  top: 20%;
+  left: 94px;
+  font-family: inherit;
+  font-size: 45px;
+}
+@media screen and (max-width: 600px) {
+  p#pageDescription {
+    font-size: 20px;
+    top: 28%;
+    left: 10%;
+  }
+}
+#pageDescription {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 100px;
+  font-size: 15px;
+  font-weight: lighter;
+  display: inline-block;
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  button.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    top: 70%;
+    left: 100px;
+    font-size: 15px;
+  }
+}
+.button {
+  background-color: #5f87c9;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: 27px;
+  position: absolute;
+  top: 50%;
+  margin-left: -55px;
+  width: 286px;
+  height: 62px;
+  color: white;
+  font-size: 20px;
+}
+
+

@@ -1,0 +1,29 @@
+.productPage{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.detailsCard {
+    margin-left: 20%;
+}
+
+span {
+    color: #c57840;
+}
+
+.price, 
+.buyBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buyBtn {
+    float: right;
+}
+
+.price {
+    color: #c57840;
+    font-size: 25px;
+    font-weight: bold;
+}

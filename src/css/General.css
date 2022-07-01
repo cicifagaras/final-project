@@ -1,0 +1,81 @@
+.nav {
+    font-size: large;
+    width: 30%;
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    div.page {
+      background-size: 70%;
+      overflow: scroll;
+    }
+}
+.page {
+    position: relative;
+    background-color: #b5c5d1;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-family: Bitter;
+}
+
+.addBtn{
+  height: 30px;
+  width: 110px;
+  font-size: medium;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.formTextarea {
+  width: 350px;
+  height: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  form.addForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.addForm {
+  font-size: medium;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  div.formControl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.formControl {
+  margin: 10px 10px;
+}
+
+.formControl > label{
+  margin-right: 5px;
+}
+
+.saveBtnForm {
+  margin-right: -50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5F87C9;
+  color: white;
+}
+
+.addRemoveBtn {
+  display: flex;
+  justify-content:end
+}

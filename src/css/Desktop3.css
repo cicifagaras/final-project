@@ -1,0 +1,41 @@
+.desktop-3 {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 600px){
+  div.card{
+    width: 150px;
+    height: 150px;
+  }
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #d9d9d9 !important;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  border-radius: 30px !important;
+}
+@media screen and (max-width: 600px){
+  img.card-img-top{
+    width: 70px !important;
+  }
+}
+.card-img-top{
+  width: 120px !important;
+}
+@media screen and (max-width: 600px){
+  p.card-title{
+    font-size: 20px;
+  }
+}
+.card-title{
+  font-size: 30px;
+  color: #c57840;
+  text-align: center;
+}
+.mb-2 {
+  cursor: pointer;
+}

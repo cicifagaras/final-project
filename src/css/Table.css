@@ -1,0 +1,12 @@
+.tableHead, 
+.tableBody {
+  font-size: medium;
+}
+
+@media screen and (max-width: 600px) {
+  div.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row ;
+  }
+}

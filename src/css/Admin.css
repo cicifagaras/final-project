@@ -1,0 +1,60 @@
+
+.adminPage{
+    overflow: scroll;
+}
+.content {
+    width: 100%;
+}
+.inventoryList {
+    width: 70%;
+    margin: 10px 20px;
+}
+.overview {
+    height: 1200px;
+    width: 30%;
+    background-color:lightgray;
+    border-radius: 30px;
+}
+.overviewBox{
+    width: 200px;
+    font-size: medium;
+    border-radius: 15px;
+}
+.snowboardBox {
+    background-color: lightblue;
+}
+.skisBox {
+    background-color: lightsteelblue;;
+}
+
+.helmetsBox {
+    background-color: lightslategray;
+}
+
+.googlesBox {
+    background-color:mediumpurple;
+}
+
+.glovesBox {
+    background-color: lightseagreen;
+}
+
+.polesBox {
+    background-color:lightgreen;
+}
+
+.skiBootsBox {
+    background-color: lightgoldenrodyellow;
+}
+
+.skiBindingsBox {
+    background-color: lightpink;
+}
+
+.snowboardBootsBox {
+    background-color: lightcoral ;
+}
+
+.snowboardBindingsBox {
+    background-color: peru;
+}
