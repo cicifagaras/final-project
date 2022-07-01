@@ -6,7 +6,7 @@ const Logo = () => {
   const navigate = useNavigate();
 
   const firstPage = useCallback(() => {
-    navigate("/desktop-1");
+    navigate("/");
   }, [navigate]);
 
   return (

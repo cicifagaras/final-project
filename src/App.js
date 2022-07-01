@@ -1,15 +1,12 @@
 import React from 'react'
 import {
   Route,
-  useNavigationType,
-  useLocation,
   Routes,
   BrowserRouter,
 } from "react-router-dom";
 import { Desktop1 } from "./Desktop1";
 import { Desktop2 } from "./Desktop2";
 import { Desktop3 } from "./Desktop3";
-import { useEffect } from "react";
 import Admin from "./components/Admin";
 import ProductsCategory from './components/ProductsCategory';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +21,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path='/' element={<Layout />}> */}
           <Route path='/' element={<Desktop1/>} />
 
           <Route path="/desktop-2" element={<Desktop2 />} />
@@ -39,7 +35,6 @@ function App() {
 
           <Route path='/cartPage' element={<CartPage />} />
 
-        {/* </Route> */}
       </Routes>
     </BrowserRouter>
 
